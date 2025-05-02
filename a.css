@@ -173,9 +173,6 @@ border-radius: 20px;
   padding: 0;
   margin-right: 20px;
 }
-
-
-
 .menu a {
     margin-top: 20px;
     margin-left: 20px;
@@ -188,15 +185,9 @@ border-radius: 20px;
   border-right: 15px solid black;
   font-weight: bold;
 }
-
 .content {
   max-width: 600px;
 }
-
-h1 {
-  color: purple;
-}
-
 .footer {
   font-style: italic;
   color: #444;
