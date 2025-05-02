@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEEK 1 Assignment</title>
+ <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <center><h1>HTML</h1></center>
+
+    <h1>Task 1 </h1>
+   <table border="1" cellspacing="0" cellpadding="2" bgcolor="skyblue" bordercolor="white">
+  <tr>
+    <th width="300">Firstname</th>
+    <th width="300 ">Lastname</th>
+    <th width="150">Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+
+
+
+<h1>Task 2</h1>
+<div >
+<p>List can be nested(list inside list):</p>
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+    </ul>
+    <li>Milk</li>
+</ul>
+</div>
+<p>Click any of the following links</p>
+<p><a href="https://www.google.com/" target="_blank">Opens in new</a> | <a href="https://www.google.com/" target="_self">Opens in self</a> 
+|<a href="https://www.google.com/" target="_parent">Opens in parent</a> | <a href="https://www.google.com/" target="_top">Opens in new</a></p>
+
+
+
+
+
+<h1 >Task 3</h1>
+   <center><h2 > Registeration form</h2></center> 
+    <form action="">
+    <table border="1" align="center" cellspacing="0" cellpadding="2" >
+    <tr>
+        <td align="center"><label><b>First Name </b> </label></td>
+         <td><input type="text" size="62"></td>
+   </tr>
+    <tr>
+        <td align="center"><label><b>Last Name </b></label></td>
+         <td><input type="text" size="62"></td>
+   </tr>
+   <tr>
+        <td align="center"><label><b>Email </b></label></td>
+         <td><input type="email" size="62"></td>
+   </tr>
+   <tr>
+        <td align="center"><label><b>Password </b> </label></td>
+         <td><input type="password" size="62"></td>
+   </tr>
+    <tr>
+        <td align="center"><label><B>Re enter password </b> </label></td>
+         <td><input type="password" size="62"></td>
+   </tr>
+   <tr colspan="2">
+    <td align="center"><label for="gender"><b>Gender : </b>
+    </label></td>
+    <td><input type="radio" name="gender" id="male">Male <hr>
+        <input type="radio" name="gender" id="male">Female
+    </td>
+   </tr>
+    <tr>
+        <td align="center"><label><b>Age : </b></label></td>
+         <td><input type="number" style="width:442px;"></td>
+   </tr>
+    <tr >
+        <td align="center"><label><b>Phone Number </b> </label></td>
+         <td><input type="number" style="width:442px;"></td>
+   </tr>
+    <tr>
+        <td align="center"><label><b>Adress </b></label></td>
+         <td><textarea name="" id="" rows="7" cols="58"></textarea></td>
+   </tr>
+    <tr >
+        <td align="center"><label><B>State </B></label></td>
+         <td><input type="text" size="62"></td>
+   </tr>
+   <tr>
+    <td align="center"><b>Country</b></td>
+    <td><select name="country" id="">
+        <option value="">Choose your country</option>
+        <option value="">India</option>
+        <option value="">China</option>
+        <option value="">Usa</option>
+    </select>
+</td>
+   </tr>
+   <tr>
+    <td><b>languages known</b></td>
+    <td><input type="checkbox">English<input type="checkbox">Kannada <input type="checkbox">Hindi<input type="checkbox">Telugu</td>
+   </tr>
+   <tr>
+    <td colspan="2"><input type="checkbox" style="accent-color: blue;">Hereby I declare all the given details are true</td>
+   </tr>
+   <tr>
+    <td colspan="2" align="right">Login to <a href="https://www.acharyaerptech.in/Login">Acharya</a> Website</td>
+   </tr>
+   </table>
+   <br>
+   <center><input type="submit" value="Register"></center>
+   </form>
+   
+
+
+
+
+   <center><h1>CSS</h1></center>
+   <h1>Task 1 </h1>
+   <table border="1" cellspacing="1" cellpadding="2" bgcolor="skyblue" bordercolor="Black" id="tt" >
+  <tr >
+    <th width="300" >Firstname</th>
+    <th width="300" >Lastname</th>
+    <th width="150" >Age</th>
+  </tr>
+  <tr>
+    <td >Jill</td>
+    <td >Smith</td>
+    <td >50</td>
+  </tr>
+  <tr>
+    <td >Eve</td>
+    <td >Jackson</td>
+    <td >94</td>
+  </tr>
+  <tr>
+    <td >John</td>
+    <td >Doe</td>
+    <td >80</td>
+  </tr>
+</table>
+<BR></BR>
+<br>
+<div id="container">
+<div id="square1"></div>
+<div id="square2"></div>
+<div id="square3"></div>
+<div id="square4"></div>
+<div id="square5"></div>
+<div id="square6"></div>
+<div id="square7"></div>
+<div id="square8"></div>
+<div id="square9"></div>
+</div>
+
+
+<h1>Task 2</h1>
+<div class="vbar">
+    <div class="vbar " id="home">Home</div>
+    <div class="vbar">Java</div>
+    <div class="vbar">CSS</div>
+    <DIV class="vbar">HTML</DIV>
+    <div class="vbar">Bootstrap</div>
+</div>
+<br>
+<div class="hbar">
+    <div class="hbar " id="home1">Home</div>
+    <div class="hbar">Java</div>
+    <div class="hbar">CSS</div>
+    <DIV class="hbar">HTML</DIV>
+    <div class="hbar">Bootstrap</div>
+</div>
+
+<h1>Task 3</h1>
+<table cellpadding="5" cellspacing="0" border="1" class="t3">
+    <tr id="head">
+        <td>Company</td>
+        <td>Contact</td>
+        <td>Country</td>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Berglunds snabbköp</td>
+      <td>Christina Berglund</td>
+      <td>Sweden</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Königlich Essen</td>
+      <td>Philip Cramer</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+</table>
+
+<h1>Task 4</h1>
+<div id="box">
+
+   <div>
+        <div id="green"></div>
+    <div id="blue"></div>
+    <div id="red"></div>
+    <div id="grey"></div>
+   </div>
+   <div id="content">
+    <h2>Hoverable side nav buttons</h2>
+    <p>hover over the buttons in left side to open them</p>
+</div>
+</div>
+
+
+<h1>Task 3</h1>
+<center><img src="data:image/jpeg;base64,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" alt=""></div>
+</center>
+<center>
+<form action="">
+  
+  <table>
+    <tr >
+      <tD><label for=""style="display: block; text-align: left;"><b>Username</b></label></tD>
+     </tr>
+    <tr>
+      <td><input type="text" name="" id="" placeholder="Enter Username" size="100" style="height: 30px;"></td>
+    </tr>
+     <tr><td><label for=""style="display: block; text-align: left;"><b>Password</b></label></td></tr><br>
+     <tr><td><input type="password" placeholder="Enter Password" id="" size="100" style="height: 30px;"></td></tr>
+     <tr>
+      <td><button type="submit" style="width: 700px; height: 30px; background-color: green; color: white;">Login</button></td>
+     </tr>
+     <tr><td><input type="checkbox" name="" id="" style="accent-color: blue;">Remember me</td></tr>
+     <tr>
+      <td>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+      <button style="background-color: red; color: white; width: 90px; height: 30px; border-radius: 5px;">Cancel</button>
+      <a href="" style="text-align: right;">Forgot password</a>
+    </div>
+    </td>
+   </tr>
+  </table>
+</form>
+</center>
+</div>
+
+
+<h1>Task 6</h1>
+<div id="t6">
+    <ul class="menu">
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">Musings</a></li>
+      <li><a href="#">My town</a></li>
+      <li><a href="#">Links</a></li>
+    </ul>
+
+    <div class="content">
+      <h1>My first styled page</h1>
+      <p>Welcome to my styled page!</p>
+      <p>It lacks images, but at least it has style. And it has links, even if they don’t go anywhere...</p>
+      <p>There should be more here, but I don’t know what yet.</p>
+      <hr>
+      <p class="footer">Made 5 April 2004<br><em>by myself.</em></p>
+    </div>
+  </div>
+</body>
+</html>
